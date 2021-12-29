@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>klawiatura</class>
+ <widget class="QWidget" name="klawiatura">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>klawiatura</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 120), stop:1 rgba(255, 255, 255, 255))</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>651</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Tekst Do przepisania...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>190</y>
+     <width>511</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="plainText">
+       <string>Tekst przepisany przez użytkownika...
+</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>40</y>
+     <width>781</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+   </property>
+   <property name="text">
+    <string>Witaj! Podaj nazwę użytkownika i wybierz zaloguj lub nowy użytkownik</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>650</y>
+     <width>621</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(255, 255, 255,0);</string>
+   </property>
+   <property name="text">
+    <string>Zgodność XX% z użytkownik YYYYYY.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>369</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(102, 241, 255, 255), stop:0.537313 rgba(226, 243, 255, 255), stop:0.890547 rgba(102, 79, 79, 162), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string>Nowy użytkownik</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>369</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(102, 241, 255, 255), stop:0.537313 rgba(226, 243, 255, 255), stop:0.890547 rgba(102, 79, 79, 162), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string>Zaloguj</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>400</y>
+     <width>158</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(102, 241, 255, 255), stop:0.537313 rgba(226, 243, 255, 255), stop:0.890547 rgba(102, 79, 79, 162), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string>OK!</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>115</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(66, 200, 184,0);</string>
+   </property>
+   <property name="text">
+    <string>Nazwa użytkownika</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>369</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(102, 241, 255, 255), stop:0.537313 rgba(226, 243, 255, 255), stop:0.890547 rgba(102, 79, 79, 162), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string>Wyczyść</string>
+   </property>
+  </widget>
+  <action name="listener_st">
+   <property name="text">
+    <string>listener_st</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
